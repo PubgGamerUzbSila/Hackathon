@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.links{
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
