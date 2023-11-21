@@ -1,0 +1,31 @@
+.btn {
+  background: var(--btn-bg-1);
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--white);
+  border: none;
+  border-radius: 1.4rem;
+}
+
+.padding__type1,
+.padding__type2,
+.padding__type4 {
+  background: var(--btn-bg-1);
+}
+
+.padding__type1 {
+  padding: 1.7rem 2.4rem 1.9rem 2.4rem;
+}
+
+.padding__type2 {
+  padding: 2.6rem 3.8rem;
+}
+
+.padding__type3 {
+  background: var(--white);
+  padding: 2.6rem 3.9rem 2.7rem 3.9rem;
+}
+
+.padding__type4 {
+  padding: 2.6rem 2 rem;
+}

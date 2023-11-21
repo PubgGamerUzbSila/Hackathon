@@ -1,7 +1,7 @@
 /*====== FONT ======*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/* font-family: 'Inter', sans-serif; */
 
+/* font-family: 'Inter', sans-serif; */
 /*====== ROOT ======*/
 :root {
     --text-color: #2c2c2c;
@@ -36,12 +36,8 @@ ul {
 
 /* ======= HEADER STYLE  =========*/
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-
 /* ======= NAV STYLE  =========*/
 .container {
     max-width: 130rem;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
