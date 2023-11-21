@@ -1,5 +1,9 @@
 import React from 'react'
+<<<<<<< HEAD
 import styles from './CleaaningSide.module.css'
+=======
+import styles from './CleaningSide.module.css'
+>>>>>>> main
 import home from '../../assets/img/IMAGE.png'
 import true_img from '../../assets/icons/true.svg'
 import { Button } from '../UI/Button/Button'
@@ -15,6 +19,7 @@ function CleaningSide() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <div className={styles.trues}>
                 <div>
+<<<<<<< HEAD
                     <img src={true_img} alt="" />
                     <span>Bathrooms</span>
                 </div>
@@ -44,6 +49,37 @@ function CleaningSide() {
                 </div>
                 <div>
                     <img src={true_img} alt="" />
+=======
+                    <img src={true_img} alt="check mark" />
+                    <span>Bathrooms</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Kitchens</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Living Rooms</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Carpets</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Bedrooms</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Offices</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+                    <span>Businesses</span>
+                </div>
+                <div>
+                    <img src={true_img} alt="check mark" />
+>>>>>>> main
                     <span>Windows</span>
                 </div>
             </div>
