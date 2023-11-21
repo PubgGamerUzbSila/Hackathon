@@ -9,7 +9,7 @@ function App() {
       <div className='container'>
         <Hero />
         <ProfService />
-        <CleaningSide />
+        <Cleanin gSide />
       </div>
     </>
   );
