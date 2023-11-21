@@ -5,9 +5,7 @@ import Sumbit from "./components/Sumbit/Sumbit";
 function App() {
   return (
     <>
-      <div className="container">
-        <Sumbit />
-      </div>
+      <Sumbit />
     </>
   );
 }

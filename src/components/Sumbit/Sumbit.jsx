@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './Sumbit.module.css'
 import { IoMdCall } from "react-icons/io";
+import { Input } from '../UI/Input/Input';
 
 const Sumbit = () => {
   return (
     <>
+       <div className={styles.submitt}>
+        <div className="container">
         <div className={styles.submit}>
             <div className={styles.info}>
                 <h2>Request a free cleaning quote today</h2>
@@ -22,9 +25,18 @@ const Sumbit = () => {
                 <button>Browse our packages</button>
             </div>
             <form>
-
+                <Input type={"text"} value={"Full name"}/>
+                <Input type={"text"} value={"Phone number"}/>
+                <Input type={"text"} value={"Address"}/>
+                <Input type={"email"} value={"Email"}/>
+                <Input type={"text"} value={"Requested service"}/>
+                <Input type={"text"} value={"Day of service"}/>
+                <Input type={"area"} value={"Add a note"} />
+                <button>Submit message</button>
             </form>
         </div>
+        </div>
+       </div>
     </>
   )
 }

@@ -1,34 +1,47 @@
 .submit {
-    border: 1px solid red;
     display: flex;
+    gap: 6.2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24rem 0;
+}
+.submitt{
+    background: #F7F9FC;
 }
 
 .info {
-    border: 1px solid red;
+    width: 32%;
 }
-form{
-    border: 1px solid red;
+form {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 16px;
+    border: 1px solid #EFF0F6;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+    gap: 3.2rem;
+    padding: 8.5rem 6.1rem;
 }
-
+form > button{
+    grid-column: 1;
+}
 .call {
     border: 1px solid green;
 }
 
 h2 {
     color: #211F54;
-    font-family: Roboto;
-    font-size: 48px;
-    font-style: normal;
+    font-size: 4.8rem;
     font-weight: 700;
     line-height: 57.984px;
-    /* 120.8% */
 }
 
 p {
     color: #6E7191;
     font-size: 2.1rem;
-    font-weight: 400;
     line-height: 30.006px;
+    padding: 0.8rem 0 1.1rem;
 }
 
 h3 {
@@ -51,10 +64,10 @@ button {
 }
 
 .call {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    border: none;
 }
 
 .icon {
@@ -96,9 +109,10 @@ button {
     font-weight: 700;
     line-height: 36.008px;
 }
-h3{
+
+h3 {
     color: #211F54;
-font-size: 2.8rem;
-font-weight: 700;
-line-height: 36.008px; 
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 36.008px;
 }
