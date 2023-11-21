@@ -5,6 +5,7 @@ import { Hero } from "./components/Hero/Hero";
 import Makesus from "./components/MakesUs/Makesus";
 import Navbar from "./components/Navbar/Navbar";
 import CleaningSide from "./components/OurCleaning/CleaningSide";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -14,9 +15,8 @@ function App() {
         <Makesus /> 
         <ProfService />
         <CleaningSide />
-      </div>
         <Sumbit />
-    
+      </div>
     </>
   );
 }
