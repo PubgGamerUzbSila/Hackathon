@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './CleaaningSide.module.css'
+import styles from './CleaningSide.module.css'
 import home from '../../assets/img/IMAGE.png'
 import true_img from '../../assets/icons/true.svg'
 import { Button } from '../UI/Button/Button'
@@ -15,7 +15,7 @@ function CleaningSide() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <div className={styles.trues}>
                 <div>
-                    <img src={true_img} alt="" />
+                    <img src={true_img} alt="true" />
                     <span>Bathrooms</span>
                 </div>
                 <div>
