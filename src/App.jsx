@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+import "./App.css";
+import OurCleaning from "./components/OurCleaning/OurCleaning";
+
+function App() {
+  return (
+    <>
+      <div className="container">
+     <OurCleaning/>
+=======
 import Sumbit from "./components/Sumbit/Sumbit";
 import ProfService from "./components/ProfService/ProfService";
 import { Hero } from "./components/Hero/Hero";
@@ -15,6 +25,7 @@ function App() {
         <ProfService />
         <CleaningSide />
         <Sumbit />
+>>>>>>> main
       </div>
     </>
   );
