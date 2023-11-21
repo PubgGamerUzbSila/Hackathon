@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./OurService.module.css";
 import table from "../../assets/img/table.svg";
-import cards from "../../assets/img/cards.svg"
-import vacuumCleaner from "../../assets/img/vacuum cleaner.svg"
+import cards from "../../assets/img/cards.svg";
+import vacuumCleaner from "../../assets/img/vacuum cleaner.svg";
+import { Button } from "../UI/Button/Button";
 function OurService() {
   return (
     <div className={styles.ourService}>
@@ -22,12 +23,13 @@ function OurService() {
             sed n.
           </p>
         </div>
-        
+
         <div className={styles.box}>
           <img src={cards} alt="cards" />
           <h4>2. Pay online easily</h4>
           <p>
-          Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet at nunc.
+            Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida amet
+            at nunc.
           </p>
         </div>
 
@@ -35,13 +37,14 @@ function OurService() {
           <img src={vacuumCleaner} alt="vacuumCleaner" />
           <h4>3. Get your house cleaned</h4>
           <p>
-          Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus eleifend.
+            Nunc maecenas sollicitudin metus tellus mattis sed porttitor cursus
+            eleifend.
           </p>
         </div>
       </div>
       <div className={styles.buttons}>
-        <button>Get a free quote</button>
-        <button>Explore services</button>
+        <Button padding="padding__type2">Get a free quote</Button>
+        <Button>Explore services</Button>
       </div>
     </div>
   );
