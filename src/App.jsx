@@ -1,4 +1,3 @@
-import "./App.css";
 import Sumbit from "./components/Sumbit/Sumbit";
 import ProfService from "./components/ProfService/ProfService";
 import { Hero } from "./components/Hero/Hero";

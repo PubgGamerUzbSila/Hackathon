@@ -1,5 +1,14 @@
 /*====== FONT ======*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+<<<<<<< HEAD
+/* font-family: 'Inter', sans-serif; */
+
+/*====== ROOT ======*/
+:root {
+  --text-color: #2c2c2c;
+  --card-bg-color: #fafbfd;
+  --hover-color: #8fd8ac;
+=======
 
 /* font-family: 'Inter', sans-serif; */
 /*====== ROOT ======*/
@@ -23,8 +32,38 @@ html {
     font-family: "Plumb";
     font-size: 62.5%;
     /* font size 10px */
+>>>>>>> main
 }
+/* ======= BASIC STYLE  =========*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-family: "Plumb";
+  font-size: 62.5%;
+  /* font size 10px */
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+/* ======= HEADER STYLE  =========*/
 
+<<<<<<< HEAD
+/* ======= NAV STYLE  =========*/
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+=======
 a {
     text-decoration: none;
     display: inline-block;
@@ -41,3 +80,4 @@ ul {
     max-width: 130rem;
     margin: 0 auto;
 }
+>>>>>>> main
