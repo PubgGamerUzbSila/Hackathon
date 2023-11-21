@@ -1,12 +1,12 @@
 import "./App.css";
-import SafeFromCovid from "./components/SafeFromCovid/SafeFromCovid";
 import { Hero } from "./components/Hero/Hero";
+
 function App() {
   return (
     <>
-      <div className='container'>
+      <div className="container">
+        <ProfService />
         <Hero />
-        <SafeFromCovid />
       </div>
     </>
   );
