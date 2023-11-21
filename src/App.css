@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-.container{
+.container {
     max-width: 144rem;
     width: 100%;
     margin: 0 auto;

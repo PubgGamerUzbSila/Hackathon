@@ -1,0 +1,7 @@
+.covid {
+    border: 2px solid red;
+    border-radius: 2.4rem;
+    background: #211F54;
+    display: flex;
+    color: #fff;
+}
