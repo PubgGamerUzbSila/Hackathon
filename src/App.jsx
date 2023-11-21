@@ -4,7 +4,9 @@ import { Hero } from "./components/Hero/Hero";
 function App() {
   return (
     <>
-      <div className='container'></div>
+      <div className='container'>
+        <Hero />
+      </div>
     </>
   );
 }
