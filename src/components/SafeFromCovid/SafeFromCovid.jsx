@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './SafeFromCovid.module.css';
 import covid from '../../assets/img/Covid/CleaningCovid.png'
 import phone from '../../assets/icons/Covid/phone.svg'
+import { Button } from '../UI/Button/Button';
 
 function SafeFromCovid() {
     return (
@@ -17,13 +18,13 @@ function SafeFromCovid() {
                         <p className={styles.text}>Lobortis mattis odio leo eget mauris met aliquet semper molestie sollicitudin congue massa mauris lectus.</p>
                     </div>
                     <div className={styles.bottom}>
-                        <button>Get a free quote</button>
+                        <Button padding="padding__type2">Get a free quote</Button>
                         <div className="phoneBox">
                             <div className="phoneIcon">
                                 <img src={phone} alt="" />
                             </div>
                             <div className="phoneText">
-                                <span>Call us now</span>
+                                <span className={styles.callUs}>Call us now</span>
                                 <span className={styles.telNumber}>(414) 567 - 2109</span>
                             </div>
                         </div>

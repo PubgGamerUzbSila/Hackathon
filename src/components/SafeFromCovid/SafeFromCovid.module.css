@@ -3,5 +3,61 @@
     border-radius: 2.4rem;
     background: #211F54;
     display: flex;
+    justify-content: space-between;
     color: #fff;
+    padding-right: 7.4rem;
+}
+
+.subTitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+    /* 112.5% */
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.7984rem;
+    /* 120.8% */
+}
+
+.text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.0006rem;
+    /* 142.886% */
+}
+
+.callUs {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    /* 112.5% */
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+}
+
+.telNumber {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6008rem;
+    /* 128.6% */
 }
