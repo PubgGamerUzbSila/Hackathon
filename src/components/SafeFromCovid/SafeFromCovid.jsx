@@ -9,7 +9,7 @@ function SafeFromCovid() {
         <>
             <div className={styles.covid}>
                 <div className={styles["covid-img-side"]}>
-                    <img src={covid} alt="" />
+                    <img src={covid} alt="covid" />
                 </div>
                 <div className={styles["covid-right-side"]}>
                     <div className="textBox">
@@ -21,7 +21,7 @@ function SafeFromCovid() {
                         <Button padding="padding__type2">Get a free quote</Button>
                         <div className={styles.phoneBox}>
                             <div className={styles.phoneIcon}>
-                                <img src={phone} alt="" />
+                                <img src={phone} alt="phone" />
                             </div>
                             <div className={styles.phoneText}>
                                 <span className={styles.callUs}>Call us now</span>
