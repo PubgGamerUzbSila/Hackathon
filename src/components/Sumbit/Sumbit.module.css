@@ -42,6 +42,7 @@ p {
     font-size: 2.1rem;
     line-height: 30.006px;
     padding: 0.8rem 0 1.1rem;
+    text-align: left !important;
 }
 
 h3 {
@@ -51,7 +52,7 @@ h3 {
     line-height: 36.008px;
 }
 
-button {
+/* button {
     border-radius: 1.4rem;
     border: 1px solid #EFF0F6;
     background: #FFF;
@@ -61,7 +62,7 @@ button {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 700;
-}
+} */
 
 .call {
     display: flex;
