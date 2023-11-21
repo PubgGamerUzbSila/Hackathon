@@ -18,8 +18,16 @@
 }
 
 .padding__type2 {
-
+  border-radius: 1.4rem;
+  background: #0075FF;
   padding: 2.6rem 3.8rem;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
 }
 
 .padding__type3 {

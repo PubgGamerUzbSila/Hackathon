@@ -19,11 +19,11 @@ function SafeFromCovid() {
                     </div>
                     <div className={styles.bottom}>
                         <Button padding="padding__type2">Get a free quote</Button>
-                        <div className="phoneBox">
-                            <div className="phoneIcon">
+                        <div className={styles.phoneBox}>
+                            <div className={styles.phoneIcon}>
                                 <img src={phone} alt="" />
                             </div>
-                            <div className="phoneText">
+                            <div className={styles.phoneText}>
                                 <span className={styles.callUs}>Call us now</span>
                                 <span className={styles.telNumber}>(414) 567 - 2109</span>
                             </div>

@@ -1,11 +1,22 @@
 .covid {
-    border: 2px solid red;
     border-radius: 2.4rem;
     background: #211F54;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
     padding-right: 7.4rem;
+    gap: 7.2rem;
+    overflow: hidden;
+    margin: 10rem 0;
+}
+
+.covid-img-side>img {
+    width: 100%;
+}
+
+.covid-right-side {
+    width: 55.6rem;
 }
 
 .subTitle {
@@ -15,7 +26,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.8rem;
-    /* 112.5% */
     letter-spacing: 0.16rem;
     text-transform: uppercase;
 }
@@ -27,17 +37,36 @@
     font-style: normal;
     font-weight: 700;
     line-height: 5.7984rem;
-    /* 120.8% */
+    margin: 1.8rem 0;
 }
 
 .text {
+    width: 47.4rem;
     color: #FFF;
     font-family: Roboto;
     font-size: 2.1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 3.0006rem;
-    /* 142.886% */
+    margin-bottom: 1.2rem;
+}
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.phoneBox {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.phoneText {
+    display: flex;
+    flex-direction: column;
 }
 
 .callUs {
@@ -47,7 +76,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.8rem;
-    /* 112.5% */
     letter-spacing: 0.16rem;
     text-transform: uppercase;
 }
@@ -59,5 +87,4 @@
     font-style: normal;
     font-weight: 700;
     line-height: 3.6008rem;
-    /* 128.6% */
 }
