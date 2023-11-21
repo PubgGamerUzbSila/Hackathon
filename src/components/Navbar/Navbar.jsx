@@ -1,11 +1,12 @@
 import React from "react";
 //container uchun
-import "../../App.css"
+import "../../App.css";
 //component uchun
 import styles from "./Navbar.module.css";
 //Logo
 import logo from "../../assets/icons/logo.svg";
-import { Button } from "../UI/Button/Button";
+//components
+import { Button } from "../../components/UI/Button/Button";
 
 const Navbar = () => {
   return (

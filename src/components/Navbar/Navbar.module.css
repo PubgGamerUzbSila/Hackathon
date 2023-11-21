@@ -1,10 +1,41 @@
-nav{
+nav {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
 }
-.links{
+
+.links {
     display: flex;
     justify-content: row;
-    justify-content: space-between;
+    gap: 4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+ul>li>a {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: #211F54;
+}
+
+.btns{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btns > p{
+    color: #211F54;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
 }
