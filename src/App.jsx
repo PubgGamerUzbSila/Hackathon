@@ -1,11 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import ProfService from "./components/ProfService/ProfService";
+import { Hero } from "./components/Hero/Hero";
+import CleaningSide from "./components/OurCleaning/CleaningSide";
 
 function App() {
   return (
     <>
       <div className="container">
-        <Navbar/>
+        <ProfService />
+        <Hero />
+        <CleaningSide />
       </div>
     </>
   );

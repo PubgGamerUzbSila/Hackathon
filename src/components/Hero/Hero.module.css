@@ -1,0 +1,68 @@
+/* Kamronbek's section start */
+.HeroContainer {
+  display: flex;
+  align-items: center;
+}
+.heroH2 {
+  width: 518px;
+  color: #211f54;
+  font-family: Roboto;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73.984px;
+  margin-bottom: 15px;
+}
+.heroP {
+  color: #6e7191;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+  width: 591px;
+  margin-bottom: 12px;
+}
+.heroImg {
+  width: 799.344px;
+  height: 734px;
+  margin-left: -300px;
+}
+.heroBtnSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.heroBtn {
+  width: 217px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #0075ff;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.heroBtn:active {
+  scale: 0.8;
+}
+.HeroPhoneImg {
+  width: 72px;
+  height: 72px;
+  filter: drop-shadow(0px 4px 10px rgba(20, 20, 43, 0.04));
+}
+.heroH6 {
+  color: #211f54;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36.008px;
+}
