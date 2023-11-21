@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Sumbit.module.css'
 import { IoMdCall } from "react-icons/io";
 import { Input } from '../UI/Input/Input';
+import { Button } from '../UI/Button/Button';
 
 const Sumbit = () => {
   return (
@@ -22,7 +23,7 @@ const Sumbit = () => {
                 <div className={styles.line}></div>
                 <h3>Not convinced yet?</h3>
                 <p>Massa bibendum consectetur maurisid gravida purus, dolor dui amet morbi non nunc urna purus diam.</p>
-                <button>Browse our packages</button>
+                <Button padding={"padding__type2"}>Browse our packages</Button>
             </div>
             <form>
                 <Input type={"text"} value={"Full name"}/>
@@ -32,7 +33,7 @@ const Sumbit = () => {
                 <Input type={"text"} value={"Requested service"}/>
                 <Input type={"text"} value={"Day of service"}/>
                 <Input type={"area"} value={"Add a note"} />
-                <button>Submit message</button>
+                <Button padding={"padding__type2"}>Browse our packages</Button>
             </form>
         </div>
         </div>
