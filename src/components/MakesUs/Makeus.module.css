@@ -1,0 +1,78 @@
+.makesUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+    padding: 0rem 2.4rem;
+    gap: 2rem;
+}
+
+.left {
+    padding-right: 1.5rem;
+}
+
+.left>h2 {
+    color: #211F54;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.8rem;
+}
+
+.left>p {
+    color: #6E7191;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    padding: 1.9rem 0rem 1.5rem 0rem;
+    /* 166.7% */
+}
+
+.left>span {
+    color: #6E7191;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    /* 250.05% */
+}
+
+
+/* box info */
+
+.boxInfo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5.8rem;
+}
+
+
+.info>h2 {
+    color: #211F54;
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.6rem;
+    /* 122.2% */
+}
+
+.info>h2>span {
+    color: #0075FF;
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.6rem;
+
+    /* 122.2% */
+}
+
+.info>h4 {
+    color: #6E7191;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+    /* 133.3% */
+}
