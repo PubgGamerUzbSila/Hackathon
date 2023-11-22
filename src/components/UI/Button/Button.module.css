@@ -18,24 +18,17 @@
 }
 
 .padding__type2 {
-<<<<<<< HEAD
-  padding: 2.6rem 3.8rem;
-  background: #0075FF;
-  color: #fff;
-=======
   border-radius: 14px;
-  background: #0075FF;
+  background: #0075ff;
   padding: 2.6rem 3.8rem;
   margin-top: 4.8rem;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2rem;
   border: none;
-
->>>>>>> main
 }
 
 .padding__type3 {
@@ -44,10 +37,5 @@
 }
 
 .padding__type4 {
-<<<<<<< HEAD
-  padding: 2.6rem 2rem;
-}
-=======
   padding: 2.6rem 2 rem;
 }
->>>>>>> main
